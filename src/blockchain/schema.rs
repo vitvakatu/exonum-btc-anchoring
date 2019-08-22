@@ -20,7 +20,7 @@ use exonum::{
     crypto::Hash,
     helpers::Height,
 };
-use exonum_merkledb::{ObjectAccess, ObjectHash, ProofListIndex, ProofMapIndex, RefMut};
+use exonum::exonum_merkledb::{ObjectAccess, ObjectHash, ProofListIndex, ProofMapIndex, RefMut};
 use log::{error, trace};
 use serde_json;
 

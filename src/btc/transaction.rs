@@ -251,7 +251,7 @@ impl BtcAnchoringTransactionBuilder {
 mod tests {
     use exonum::crypto::Hash;
     use exonum::helpers::Height;
-    use exonum_merkledb::{BinaryValue, ObjectHash};
+    use exonum::exonum_merkledb::{BinaryValue, ObjectHash};
 
     use bitcoin::{
         blockdata::{

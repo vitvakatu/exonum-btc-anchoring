@@ -24,7 +24,7 @@ use exonum::{
     helpers::Height,
     messages::{Message, RawTransaction, Signed},
 };
-use exonum_merkledb::{MapProof, ObjectAccess};
+use exonum::exonum_merkledb::{MapProof, ObjectAccess};
 use exonum_testkit::{
     ApiKind, TestKit, TestKitApi, TestKitBuilder, TestNetworkConfiguration, TestNode,
 };

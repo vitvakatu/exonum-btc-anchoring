@@ -14,7 +14,7 @@
 
 use byteorder::{LittleEndian, ReadBytesExt, WriteBytesExt};
 use exonum::crypto::{self, Hash};
-use exonum_merkledb::{BinaryKey, ObjectHash};
+use exonum::exonum_merkledb::{BinaryKey, ObjectHash};
 
 use std::io::{Cursor, Read, Write};
 

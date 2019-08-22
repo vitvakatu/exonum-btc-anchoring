@@ -16,6 +16,7 @@
 
 use btc_transaction_utils::{p2wsh::InputSigner, InputSignature, TxInRef};
 use exonum::{
+    exonum_merkledb,
     blockchain::{ExecutionResult, Transaction, TransactionContext},
     helpers::ValidatorId,
 };

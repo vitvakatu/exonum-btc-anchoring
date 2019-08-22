@@ -18,7 +18,7 @@ use exonum::{
     crypto::Hash,
     messages::RawTransaction,
 };
-use exonum_merkledb::{Fork, Snapshot};
+use exonum::exonum_merkledb::{Fork, Snapshot};
 
 use serde_json::json;
 

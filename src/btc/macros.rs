@@ -22,7 +22,7 @@ macro_rules! impl_wrapper_for_bitcoin_type {
 
 macro_rules! impl_wrapper_for_bitcoin_consensus_encoding {
     ($name:ident) => {
-        impl exonum_merkledb::BinaryValue for $name {
+        impl exonum::exonum_merkledb::BinaryValue for $name {
             fn to_bytes(&self) -> Vec<u8> {
                 bitcoin::consensus::serialize(&self.0)
             }
@@ -33,7 +33,7 @@ macro_rules! impl_wrapper_for_bitcoin_consensus_encoding {
             }
         }
 
-        impl exonum_merkledb::ObjectHash for $name {
+        impl exonum::exonum_merkledb::ObjectHash for $name {
             fn object_hash(&self) -> exonum::crypto::Hash {
                 let bytes = bitcoin::consensus::serialize(&self.0);
                 exonum::crypto::hash(&bytes)

@@ -17,7 +17,7 @@ use exonum::{
     crypto::{self, Hash},
     helpers::ValidatorId,
 };
-use exonum_merkledb::{BinaryValue, ObjectHash};
+use exonum::exonum_merkledb::{BinaryValue, ObjectHash};
 use serde_derive::{Deserialize, Serialize};
 
 use std::{

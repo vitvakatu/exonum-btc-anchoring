@@ -20,7 +20,7 @@ use exonum::{
     crypto::Hash,
     helpers::Height,
 };
-use exonum_merkledb::{ListProof, MapProof};
+use exonum::exonum_merkledb::{ListProof, MapProof};
 use failure::Fail;
 use serde_derive::{Deserialize, Serialize};
 
