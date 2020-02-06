@@ -45,8 +45,8 @@ serde_json = "1.0"
 serde_str = "0.1"
 structopt = "0.3"
 
-exonum-rust-runtime = { git = "https://github.com/exonum/exonum.git", rev = "cce837ae6c2c167edb4c76c66c3b8531db954b84" }
-exonum-explorer = { git = "https://github.com/exonum/exonum.git", rev = "cce837ae6c2c167edb4c76c66c3b8531db954b84" }
+exonum-rust-runtime = { git = "https://github.com/exonum/exonum.git", rev = "805dee9e" }
+exonum-explorer = { git = "https://github.com/exonum/exonum.git", rev = "805dee9e" }
 
 [dev-dependencies]
 proptest = "0.9"
@@ -55,11 +55,11 @@ proptest = "0.9"
 exonum-build = "0.13.0-rc.2"
 
 [patch.crates-io]
-exonum = { git = "https://github.com/exonum/exonum.git", rev = "cce837ae6c2c167edb4c76c66c3b8531db954b84" }
-exonum-cli = { git = "https://github.com/exonum/exonum.git", rev = "cce837ae6c2c167edb4c76c66c3b8531db954b84" }
-exonum-crypto = { git = "https://github.com/exonum/exonum.git", rev = "cce837ae6c2c167edb4c76c66c3b8531db954b84" }
-exonum-derive = { git = "https://github.com/exonum/exonum.git", rev = "cce837ae6c2c167edb4c76c66c3b8531db954b84" }
-exonum-merkledb = { git = "https://github.com/exonum/exonum.git", rev = "cce837ae6c2c167edb4c76c66c3b8531db954b84" }
-exonum-proto = { git = "https://github.com/exonum/exonum.git", rev = "cce837ae6c2c167edb4c76c66c3b8531db954b84" }
-exonum-supervisor = { git = "https://github.com/exonum/exonum.git", rev = "cce837ae6c2c167edb4c76c66c3b8531db954b84" }
-exonum-testkit = { git = "https://github.com/exonum/exonum.git", rev = "cce837ae6c2c167edb4c76c66c3b8531db954b84" }
+exonum = { git = "https://github.com/exonum/exonum.git", rev = "805dee9e" }
+exonum-cli = { git = "https://github.com/exonum/exonum.git", rev = "805dee9e" }
+exonum-crypto = { git = "https://github.com/exonum/exonum.git", rev = "805dee9e" }
+exonum-derive = { git = "https://github.com/exonum/exonum.git", rev = "805dee9e" }
+exonum-merkledb = { git = "https://github.com/exonum/exonum.git", rev = "805dee9e" }
+exonum-proto = { git = "https://github.com/exonum/exonum.git", rev = "805dee9e" }
+exonum-supervisor = { git = "https://github.com/exonum/exonum.git", rev = "805dee9e" }
+exonum-testkit = { git = "https://github.com/exonum/exonum.git", rev = "805dee9e" }
