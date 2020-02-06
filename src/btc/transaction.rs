@@ -7,7 +7,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-use exonum::{crypto::Hash, helpers::Height};
+use exonum::{merkledb as exonum_merkledb, crypto::Hash, helpers::Height};
 
 use bitcoin::blockdata::{
     script::Script,
@@ -251,7 +251,7 @@ impl BtcAnchoringTransactionBuilder {
 mod tests {
     use exonum::crypto::Hash;
     use exonum::helpers::Height;
-    use exonum_merkledb::{BinaryValue, ObjectHash};
+    use exonum::merkledb::{BinaryValue, ObjectHash};
 
     use bitcoin::{
         blockdata::{

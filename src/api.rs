@@ -22,7 +22,7 @@
 
 use btc_transaction_utils::{p2wsh, TxInRef};
 use exonum::{blockchain::BlockProof, crypto::Hash, helpers::Height};
-use exonum_merkledb::{ListProof, MapProof};
+use exonum::merkledb::{ListProof, MapProof};
 use exonum_rust_runtime::{
     api::{self, ServiceApiBuilder, ServiceApiState},
     Broadcaster,

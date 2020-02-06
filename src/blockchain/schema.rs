@@ -16,7 +16,7 @@
 
 use exonum::{blockchain::Schema as CoreSchema, helpers::Height};
 use exonum_derive::FromAccess;
-use exonum_merkledb::{
+use exonum::merkledb::{self as exonum_merkledb,
     access::{Access, FromAccess, Prefixed},
     Entry, Fork, ProofListIndex, ProofMapIndex,
 };

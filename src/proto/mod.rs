@@ -20,7 +20,7 @@ use bitcoin;
 use btc_transaction_utils;
 use exonum::{
     crypto::{proto::*, Hash, PublicKey},
-    merkledb::{
+    merkledb::{self as exonum_merkledb,
         impl_object_hash_for_binary_value, impl_serde_hex_for_binary_value, BinaryKey, BinaryValue,
         ObjectHash,
     },

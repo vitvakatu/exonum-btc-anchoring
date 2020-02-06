@@ -25,7 +25,7 @@ use exonum::{
     messages::{AnyTx, Verified},
     runtime::{SUPERVISOR_INSTANCE_ID, InstanceId, SnapshotExt},
 };
-use exonum_merkledb::{access::Access, MapProof, ObjectHash, Snapshot};
+use exonum::merkledb::{access::Access, MapProof, ObjectHash, Snapshot};
 use exonum_rust_runtime::{api, ServiceFactory, TxStub};
 use exonum_supervisor::{ConfigPropose, Supervisor, SupervisorInterface};
 use exonum_testkit::{ApiKind, TestKit, TestKitApi, TestKitBuilder, TestNode};

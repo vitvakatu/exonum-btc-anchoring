@@ -13,7 +13,7 @@
 // limitations under the License.
 
 use exonum::crypto::Hash;
-use exonum_merkledb::{BinaryValue, ObjectHash};
+use exonum::merkledb::{BinaryValue, ObjectHash};
 use exonum_proto::ProtobufConvert;
 use protobuf::Message;
 

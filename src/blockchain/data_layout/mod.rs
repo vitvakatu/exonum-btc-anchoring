@@ -16,7 +16,7 @@
 
 use byteorder::{LittleEndian, ReadBytesExt, WriteBytesExt};
 use exonum::crypto::{self, Hash};
-use exonum_merkledb::{BinaryKey, ObjectHash};
+use exonum::merkledb::{BinaryKey, ObjectHash};
 
 use crate::btc::Sha256d;
 

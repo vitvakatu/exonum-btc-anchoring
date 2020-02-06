@@ -25,7 +25,7 @@ use bitcoin::{network::constants::Network, util::address};
 use bitcoin_hashes::sha256d;
 use btc_transaction_utils;
 use derive_more::{Display, From, FromStr, Into};
-use exonum_merkledb::{BinaryValue, ObjectHash};
+use exonum::merkledb::{BinaryValue, ObjectHash};
 use hex::{self, FromHex, ToHex};
 use rand::Rng;
 use serde_derive::{Deserialize, Serialize};
